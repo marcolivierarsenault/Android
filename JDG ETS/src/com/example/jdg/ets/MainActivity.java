@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
     	    }
     	}
     	catch (IOException e) {
-    	    //You'll need to add proper error handling here
+    		list.add("Fichier Manquant... Doit creer un fichier name.txt sur la sd et mettre les nom dedans.");
     	}
     	
     	
