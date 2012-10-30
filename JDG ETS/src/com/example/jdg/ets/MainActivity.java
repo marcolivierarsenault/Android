@@ -38,7 +38,8 @@ public class MainActivity extends Activity {
     		list.add("Fichier Manquant... Doit creer un fichier name.txt sur la sd et mettre les nom dedans.");
     	}
     	
-    	
+    	if (list.size()==0)
+    		list.add("Fichier Manquant... Doit creer un fichier name.txt sur la sd et mettre les nom dedans.");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
