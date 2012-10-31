@@ -18,30 +18,30 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 	
-	ArrayList<String> list = new ArrayList<String>();
+//	ArrayList<String> list = new ArrayList<String>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-    	File sdcard = Environment.getExternalStorageDirectory();
-
-    	//Get the text file
-    	File file = new File(sdcard,"name.txt");
-
-
-    	try {
-    	    BufferedReader br = new BufferedReader(new FileReader(file));
-    	    String line;
-
-    	    while ((line = br.readLine()) != null) {
-    	        list.add(line);
-    	    }
-    	    
-    	    if(list.size()==0)
-        		list.add("Fichier Manquant... Doit creer un fichier name.txt sur la sd et mettre les nom dedans.");
-    	}
-    	catch (IOException e) {
-    		list.add("Fichier Manquant... Doit creer un fichier name.txt sur la sd et mettre les nom dedans.");
-    	}
+//    	File sdcard = Environment.getExternalStorageDirectory();
+//
+//    	//Get the text file
+//    	File file = new File(sdcard,"name.txt");
+//
+//
+//    	try {
+//    	    BufferedReader br = new BufferedReader(new FileReader(file));
+//    	    String line;
+//
+//    	    while ((line = br.readLine()) != null) {
+//    	        list.add(line);
+//    	    }
+//    	    
+//    	    if(list.size()==0)
+//        		list.add("Fichier Manquant... Doit creer un fichier name.txt sur la sd et mettre les nom dedans.");
+//    	}
+//    	catch (IOException e) {
+//    		list.add("Fichier Manquant... Doit creer un fichier name.txt sur la sd et mettre les nom dedans.");
+//    	}
     	
     	
         super.onCreate(savedInstanceState);
@@ -57,14 +57,21 @@ public class MainActivity extends Activity {
     public void random(View view) {
     	
     	
-    	
+    	String[] dele = {
+    			"pomme",
+    			"jambon",
+    			"laitue",
+    			"plotte",
+    			"formage"
+    			};
+
     	
     	Random r = new Random();
-    	int i1=r.nextInt(list.size());
+    	int i1=r.nextInt(dele.length);
 
     	TextView t=new TextView(this); 
 
         t=(TextView)findViewById(R.id.textView1); 
-        t.setText(list.get(i1));
+        t.setText(dele[i1]);
     }
 }
