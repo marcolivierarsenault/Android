@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package jdg.poly;
+package jdg.laval;
 
 public final class R {
     public static final class attr {

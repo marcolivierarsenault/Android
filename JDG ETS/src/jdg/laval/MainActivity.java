@@ -1,4 +1,4 @@
-package jdg.poly;
+package jdg.laval;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
-import jdg.poly.R;
+import jdg.laval.R;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -58,61 +58,52 @@ public class MainActivity extends Activity {
     	
     	
     	String[] dele = {
-    			"Adriana Houle",
-    			"Alexandre Blackburn",
-    			"Alexis Tisseur",
-    			"Anik Trepanier",
-    			"Babacar Daoust",
-    			"Benjamin Crevier",
-    			"Camille Bourdages",
-    			"Camille Hamelin",
-    			"Camille Salvas",
-    			"Catherine Corriveau",
-    			"Charlotte Cyr",
-    			"Chloé Gariépy",
-    			"Daniel Harvey",
-    			"Élise Ménard",
-    			"Etienne St-Pierre",
-    			"Felix Pelletier",
-    			"Frederik Coallier",
-    			"Gabriel Doré",
-    			"Gabrielle Bourdages",
-    			"Genevieve Royer",
-    			"Guillaume Royer",
-    			"Jeanne de Préval",
-    			"Jean-Philippe Provost",
-    			"Jean-Sébastien Laurin",
-    			"Jennifer Nguyen",
-    			"Jérémie Lavoie Doyon",
-    			"Joannie Beaudoin",
-    			"Julie-Anne Belzile",
-    			"Louis Pepin",
-    			"Louis-Etienne Pratte",
-    			"Luc Filliatrault",
-    			"Mannu Mata",
-    			"Martin Grover",
-    			"Mathieu Bouchard",
-    			"Mathieu Boudreault",
-    			"Mathieu Coupal",
-    			"Mathieu Perron",
-    			"Marie-Pier Gosselin",
-    			"Matthieu Rhulmann",
-    			"Maxime Nadeau",
-    			"Nabil Fates",
-    			"Nora Talab",
-    			"Olivier Grant",
-    			"Olivier Roy St-Jean",
-    			"Philippe Doré",
-    			"Philippe Gref",
-    			"Philippe Thauvette",
-    			"Pierre-Bernard Tiffault",
-    			"Rebecca Beaumont",
-    			"Samuel Brownrigg",
-    			"Sophie Dagenais",
-    			"Stephan Fogaing",
-    			"Stephanie Schank",
-    			"Vincent Simard",
-    			"Xavier Coupal"
+    			"Andrea D'Oria",
+    			"Andre Lafortune",
+    			"Jerome Loisel",
+    			"Michael Robichaud",
+    			"Simon Roy",
+    			"Philippe Talbot",
+    			"Roxanne Tremblay",
+    			"David Brault",
+    			"Vanessa Lyras",
+    			"Charles-Olivier Amyot",
+    			"Julien April",
+    			"Eric Bard",
+    			"Marjorie Bergeron",
+    			"Alexandre Bergeron Tessier",
+    			"Jean-Michel Breton",
+    			"Catherine Bussières",
+    			"Samuel Côté",
+    			"Louis-David Coulombe",
+    			"John Dinan",
+    			"Vincent Dupuis",
+    			"Mathieu Durand-Jézéquel",
+    			"Sarah-Lee Fortin",
+    			"Alex Frenette-Tremblay",
+    			"Samuel Gauvin",
+    			"Samuel Genest",
+    			"Christian Grégoire",
+    			"Olivier Groleau-Hamel",
+    			"Joé Habel",
+    			"Charles  V. Lemieux",
+    			"Matthieu Lafleur",
+    			"Patrice Lajoie",
+    			"Danny Leblanc-Blais",
+    			"Hugo Lemieux",
+    			"Anouk Neveu-Laflamme",
+    			"Louis-Philippe Noël",
+    			"Éric Normandeau-Gagnon",
+    			"Dominic Otis",
+    			"Amélie Paquet-Brisebois",
+    			"Benoit Pelletier",
+    			"Amélie Plante",
+    			"Vincent Rodrigue",
+    			"Amélie Saucier",
+    			"Vincent Séguin",
+    			"Pierre-Luc Théberge",
+    			"Sarah-Claude Vanlandeghem",
+    			"Audrey Veillette"
     			};
 
     	
