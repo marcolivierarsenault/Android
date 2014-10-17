@@ -1,4 +1,4 @@
-package jdg.ets;
+package jdg.poly;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
-import jdg.ets.R;
+import jdg.poly.R;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -58,52 +58,61 @@ public class MainActivity extends Activity {
     	
     	
     	String[] dele = {
-    			"Marco Arseneault",
-    			"Mathieu Baril",
-    			"Keven Beaucage",
-    			"PS Beaudoin",
-    			"Julien Beaurivage",
-    			"Vincent Béliveau-Larose",
-    			"Philippe Bérubé",
-    			"Alexandre Benmarzouk",
-    			"Rafael Bergeron",
-    			"Renaud Bertrand Thouin",
-    			"Jeremy Boucher",
-    			"Luc-Antoine Boulanger",
-    			"Viviane catineau",
-    			"Francois Chagnon",
-    			"Élodie Collin",
-    			"mathieu coté",
-    			"Antoine Coté",
-    			"Philippe Delisle",
-    			"Laurent Doré",
-    			"Julie Gagnon",
-    			"Maxime Giard",
-    			"Noel Giguère",
-    			"Christian Godard",
-    			"Vincent Huneault",
-    			"David Jobin",
-    			"Alexandre Lacroix",
-    			"Médéric Lafleur",
-    			"martin Lambert",
-    			"Francois Langelier",
-    			"Alexandre Larochelle",
-    			"Mathieu Lavoie",
-    			"Johannie Lemelin",
-    			"Pier-yves Lessard",
-    			"Maxime Leveille",
-    			"Maude Lussier",
-    			"Alex Martin",
-    			"Vincent Mathieu-Valois",
-    			"Frédéric Morin",
-    			"Jeason Randlett",
-    			"Antoine Ratelle ",
-    			"Camille Roch",
-    			"Alexandra Rose",
-    			"JR Roy",
-    			"Olivier Toupin",
-    			"Éric Tremblay",
-    			"Yohan Trépanier Montpetit"
+    			"Adriana Houle",
+    			"Alexandre Blackburn",
+    			"Alexis Tisseur",
+    			"Anik Trepanier",
+    			"Babacar Daoust",
+    			"Benjamin Crevier",
+    			"Camille Bourdages",
+    			"Camille Hamelin",
+    			"Camille Salvas",
+    			"Catherine Corriveau",
+    			"Charlotte Cyr",
+    			"Chloé Gariépy",
+    			"Daniel Harvey",
+    			"Élise Ménard",
+    			"Etienne St-Pierre",
+    			"Felix Pelletier",
+    			"Frederik Coallier",
+    			"Gabriel Doré",
+    			"Gabrielle Bourdages",
+    			"Genevieve Royer",
+    			"Guillaume Royer",
+    			"Jeanne de Préval",
+    			"Jean-Philippe Provost",
+    			"Jean-Sébastien Laurin",
+    			"Jennifer Nguyen",
+    			"Jérémie Lavoie Doyon",
+    			"Joannie Beaudoin",
+    			"Julie-Anne Belzile",
+    			"Louis Pepin",
+    			"Louis-Etienne Pratte",
+    			"Luc Filliatrault",
+    			"Mannu Mata",
+    			"Martin Grover",
+    			"Mathieu Bouchard",
+    			"Mathieu Boudreault",
+    			"Mathieu Coupal",
+    			"Mathieu Perron",
+    			"Marie-Pier Gosselin",
+    			"Matthieu Rhulmann",
+    			"Maxime Nadeau",
+    			"Nabil Fates",
+    			"Nora Talab",
+    			"Olivier Grant",
+    			"Olivier Roy St-Jean",
+    			"Philippe Doré",
+    			"Philippe Gref",
+    			"Philippe Thauvette",
+    			"Pierre-Bernard Tiffault",
+    			"Rebecca Beaumont",
+    			"Samuel Brownrigg",
+    			"Sophie Dagenais",
+    			"Stephan Fogaing",
+    			"Stephanie Schank",
+    			"Vincent Simard",
+    			"Xavier Coupal"
     			};
 
     	
